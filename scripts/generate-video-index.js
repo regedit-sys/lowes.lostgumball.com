@@ -5,7 +5,7 @@ const dir = join(process.cwd(), 'assets');
 const files = readdirSync(dir).filter(f => f.endsWith('.html'));
 
 const listItems = files.map(f =>
-  `<li><a href="/assets/${f}">${f}</a></li>`
+  `<li><a href="/pages/videos/uploads/${f}">${f}</a></li>`
 ).join('\n');
 
 const html = `
@@ -15,4 +15,4 @@ ${listItems}
 `;
 
 writeFileSync(join(process.cwd(), 'pages/videos/video-index.html'), html);
-console.log('Video index generated!');
+console.log('TV index generated!');
