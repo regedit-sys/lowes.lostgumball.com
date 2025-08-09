@@ -1,4 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import "@catppuccin/tailwindcss/mocha";
+@import 'tailwindcss';
+@import '@catppuccin/tailwindcss/mocha' layer(utilities);
