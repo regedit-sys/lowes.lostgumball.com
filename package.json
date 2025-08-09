@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate-tv-index && npm run generate-upload-index && vite build",
+    "build": "npm run generate-upload-index && vite build",
     "preview": "vite preview",
     "generate-tv-index": "node scripts/generate-tv-index.js",
     "generate-upload-index": "node scripts/generate-video-index.js"
